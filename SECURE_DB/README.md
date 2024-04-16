@@ -1,9 +1,9 @@
-# Deploying a Multi-Tier Website Using AWS EC2 
-# Architecture details
-# Front-end -HTML on EC2
-# App -tier -phpmyadmin on docker on  EC2
-# DB - tier -  MySQL DB
-# AWS  MySQL RDS and Connecting Through PhpMyadmin | Connecting RDS Through CLI
+Deploying a Multi-Tier Website Using AWS EC2 
+Architecture details
+Front-end -HTML on EC2
+App -tier -phpmyadmin on docker on  EC2
+DB - tier -  MySQL DB
+AWS  MySQL RDS and Connecting Through PhpMyadmin | Connecting RDS Through CLI
 
 Additional notes:
 
@@ -17,7 +17,7 @@ systemctl start docker
 docker run --name phpmyadmin -d -e PMA_ARBITRARY=1 -p 8080:80 phpmyadmin
 
 
-# Scenario
+Scenario
 Company ABC wants to move their product to AWS. They have the following things set up right now:
 1. MySQL DB
 2. Website (PHP)
